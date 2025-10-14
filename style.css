@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #0043ce;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.blog-post {
+  width: 80%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.blog-post img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.comment-section {
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.comment-section input,
+.comment-section textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-section button {
+  margin-top: 10px;
+  background: #0043ce;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-section button:hover {
+  background: #002d9c;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #0043ce;
+  color: white;
+  margin-top: 30px;
+}

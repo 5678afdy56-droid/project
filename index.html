@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBM NM Blogsite</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Blogsite</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="blog-post">
+        <h2>First Blog Post</h2>
+        <p class="meta">By Admin | October 2025</p>
+        <img src="assets/images/sample.jpg" alt="Blog Image" />
+        <p>
+          This is an example of a simple blog post created for the Naan
+          Mudhalvan Front-End Project.
+        </p>
+      </section>
+
+      <section class="comment-section">
+        <h3>Comments</h3>
+        <div id="commentBox"></div>
+        <input type="text" id="name" placeholder="Your name" />
+        <textarea id="comment" placeholder="Write your comment..."></textarea>
+        <button onclick="addComment()">Post Comment</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Blogsite | IBM NM Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
