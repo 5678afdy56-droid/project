@@ -64,3 +64,10 @@ A fully functional and responsive blog website with an interactive comment syste
 Demonstrates key front-end development skills: layout design, DOM manipulation, and local data storage.
 
 Deployed successfully using GitHub Pages for public access.
+##Deployment link
+ https://5678afdy56-droid.github.io/project/
+##Repository link
+ https://github.com/5678afdy56-droid/project.git
+ ##developed by
+     VIJAYALAKSHMI A
+
