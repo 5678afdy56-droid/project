@@ -32,7 +32,7 @@ header nav a {
 }
 
 .blog-post img {
-  width: 100%;
+  width: 50%;
   border-radius: 10px;
   margin-top: 10px;
 }
@@ -75,3 +75,4 @@ footer {
   color: white;
   margin-top: 30px;
 }
+
